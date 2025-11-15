@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberDev Studio - Portfolio Freelance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <h1>CyberDev Studio</h1>
+        <p>Développement web sécurisé & solutions IT pour PME</p>
+    </header>
+
+    <main class="grid-container">
+        <div class="card">
+            <h2>Site E-commerce</h2>
+            <p>PHP/MySQL pour boutique en ligne (panier, paiements Stripe).</p>
+            <button onclick="showDemo('ecommerce')">Voir Démo</button>
+        </div>
+        <div class="card">
+            <h2>Dashboard Admin</h2>
+            <p>JS pour graphiques interactifs (Chart.js) + authentification PHP.</p>
+            <button onclick="showDemo('dashboard')">Voir Démo</button>
+        </div>
+        <div class="card">
+            <h2>API REST</h2>
+            <p>PHP pour endpoints sécurisés (JWT) + frontend fetch JS.</p>
+            <button onclick="showDemo('api')">Voir Démo</button>
+        </div>
+    </main>
+
+    <footer>
+        <form id="contactForm">
+            <input type="email" placeholder="Ton email" required>
+            <textarea placeholder="Ton message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
